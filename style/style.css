@@ -1,0 +1,240 @@
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ---- Text colors ---- */
+.text-dark-custom{
+  color: #3a3a47 !important;
+}
+
+.text-grey-custom{
+  color: #5c5c5c !important;
+}
+
+.text-light-grey-custom{
+  color: #818198 !important;
+}
+
+.text-dark-blue-custom{
+  color: #383861 !important;
+}
+.text-dark-blue-custom{
+  color: #3498db !important;
+}
+
+.text-green-custom{
+  color: #21bf73 !important;
+}
+
+/* ---- Background colors ---- */
+.bg-primary-custom{
+  background-color: #f0f5f9 !important;
+}
+
+/* ---- Forms and buttons styles */
+.btn{
+  padding: 0 20px;
+  line-height: 38px;
+}
+
+.btn-blue-custom{
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.btn-blue-custom:hover{
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.btn-success-custom{
+  border: 2px solid #21bf73;
+  background-color: #21bf73;
+  color: #ffffff;
+}
+
+.btn-success-custom:hover{
+  color: #21bf73;
+  border: 2px solid #21bf73;
+}
+
+/* ---- Form control custom ---- */
+.form-control-custom{
+  color: #222222;
+  font-family: Montserrat;
+  font-weight: 500;
+  height: 45px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #f0f5f8;
+  outline: none;
+  padding-left: 20px;
+}
+
+
+/* ---- /Navigation menu ---- */
+.navbar-brand {
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+/* ---- /Navigation menu ---- */
+
+/* ---- Home---- */
+.home {
+  padding: 150px 0 100px 0;
+}
+/* ---- /Home---- */
+
+/* ---- About---- */
+.about__card-1 {
+  background-color: #fff2e5;
+}
+
+.about__card-2 {
+  background-color: #f8f9fa;
+}
+
+.about__card-3 {
+  background-color: #f0f5f9;
+}
+
+.about__card-img {
+  width: 80px;
+}
+
+.cards:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 16px 32px;
+  transition: all 0.3s linear;
+}
+
+.cards:active {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 24px 40px;
+}
+
+/* ---- /About---- */
+
+/* ---- Feature ---- */
+.features__container {
+  background-color: #f0f5f9;
+}
+
+/* ---- /Feature ---- */
+
+/* ---- Results ---- */
+
+.results {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+.result__img {
+  width: 80px;
+}
+
+.section__title {
+  font-family: "Montserrat";
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.section__subtitle {
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+/* ---- /Results ---- */
+
+/* ---- Reviews ---- */
+.review__container {
+  background: #f0f5f9;
+  padding: 100px 50px;
+}
+
+.review__icon {
+  width: 53px;
+  margin-right: 10px;
+}
+
+.carousel__text {
+  font-size: 18px;
+  color: #6a7076;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.client__img {
+  width: 60px;
+}
+
+/* ---- /Reviews ---- */
+
+/* ---- Pricing ---- */
+
+.pricing__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #abafb3;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.pricing__card {
+  background-color: #f0f5f9;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3a3a47;
+  margin-bottom: 15px;
+}
+
+.card__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #abafb3;
+  line-height: 1.4;
+}
+
+.pricing__card-img {
+  width: 120px;
+}
+
+/* ---- /Pricing ---- */
+
+/* ---- FAQ ---- */
+.faq__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: #6a7076;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.faq__container {
+  background: #f0f5f9;
+  padding: 100px 50px;
+}
+/* ---- /FAQ ---- */
